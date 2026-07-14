@@ -1,0 +1,282 @@
+/* ==========================
+   Google Font
+========================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* ==========================
+   General
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8f9fa;
+    color:#333;
+}
+
+/* ==========================
+   Navbar
+========================== */
+
+.navbar{
+    box-shadow:0 3px 10px rgba(0,0,0,0.15);
+}
+
+.navbar-brand{
+    font-size:1.6rem;
+    letter-spacing:1px;
+}
+
+.nav-link{
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#ffc107 !important;
+}
+
+/* ==========================
+   Hero Section
+========================== */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+}
+
+.hero img{
+    border-radius:20px;
+}
+
+/* ==========================
+   Cards
+========================== */
+
+.card{
+    border:none;
+    border-radius:15px;
+    overflow:hidden;
+    transition:all .4s ease;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+.card img{
+    height:300px;
+    object-fit:cover;
+}
+
+/* ==========================
+   Artwork Image
+========================== */
+
+.art-image{
+    border-radius:15px;
+    transition:.4s;
+}
+
+.art-image:hover{
+    transform:scale(1.02);
+}
+
+/* ==========================
+   Buttons
+========================== */
+
+.btn{
+    transition:.3s;
+    border-radius:30px;
+    padding:10px 25px;
+    font-weight:500;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+/* ==========================
+   Login & Signup Page
+========================== */
+
+.vh-100{
+    background:linear-gradient(135deg,#f8f9fa,#e9ecef);
+}
+
+.card.shadow-lg{
+    border-radius:20px;
+}
+
+input.form-control{
+    border-radius:10px;
+}
+
+.input-group-text{
+    border-radius:10px 0 0 10px;
+}
+
+/* ==========================
+   Gallery Header
+========================== */
+
+.bg-dark{
+    background:#212529 !important;
+}
+
+.display-4{
+    font-weight:700;
+}
+
+/* ==========================
+   Artwork Details
+========================== */
+
+h1{
+    color:#212529;
+}
+
+hr{
+    width:120px;
+    border:3px solid #ffc107;
+    opacity:1;
+}
+
+p{
+    line-height:1.8;
+}
+
+/* ==========================
+   Footer
+========================== */
+
+footer{
+    margin-top:50px;
+}
+
+footer p{
+    margin-bottom:5px;
+}
+
+/* ==========================
+   Images
+========================== */
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+/* ==========================
+   Animations
+========================== */
+
+@keyframes fadeIn{
+
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+section{
+    animation:fadeIn .8s ease;
+}
+
+/* ==========================
+   Back To Top Button
+========================== */
+
+#topBtn{
+
+    transition:.3s;
+
+}
+
+#topBtn:hover{
+
+    background:#ffc107 !important;
+    color:#000 !important;
+
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:992px){
+
+    .display-4{
+
+        font-size:2.3rem;
+
+    }
+
+    .card img{
+
+        height:250px;
+
+    }
+
+}
+
+@media(max-width:768px){
+
+    .display-4{
+
+        font-size:2rem;
+
+    }
+
+    h1{
+
+        font-size:2rem;
+
+    }
+
+    .card img{
+
+        height:220px;
+
+    }
+
+    .navbar-brand{
+
+        font-size:1.3rem;
+
+    }
+
+}
+
+@media(max-width:576px){
+
+    .card img{
+
+        height:200px;
+
+    }
+
+    .btn{
+
+        width:100%;
+
+    }
+
+}

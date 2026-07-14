@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Gallery | Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            🎨 Art Gallery
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+            <ul class="navbar-nav ms-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="home.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Logout</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-dark text-white py-5">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <div class="col-lg-6">
+
+                <h1 class="display-4 fw-bold">
+                    Welcome to the Art Gallery
+                </h1>
+
+                <p class="lead mt-3">
+                    Explore famous masterpieces created by legendary artists.
+                    Discover their stories, artistic styles, and historical significance.
+                </p>
+
+                <a href="gallery.html" class="btn btn-warning btn-lg mt-3">
+                    Explore Gallery
+                </a>
+
+            </div>
+
+            <div class="col-lg-6 text-center mt-4 mt-lg-0">
+
+                <img src="Images/Hero.jpeg"
+                    class="img-fluid rounded shadow"
+                    alt="Art Gallery">
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2>About Our Gallery</h2>
+            <p class="text-muted">
+                Experience timeless paintings from some of the world's greatest artists.
+            </p>
+        </div>
+
+        <div class="row text-center">
+
+            <div class="col-md-4">
+                <i class="bi bi-palette display-4 text-warning"></i>
+                <h4 class="mt-3">Masterpieces</h4>
+                <p>
+                    View iconic paintings from different periods of art history.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <i class="bi bi-person-fill display-4 text-warning"></i>
+                <h4 class="mt-3">Famous Artists</h4>
+                <p>
+                    Learn about renowned artists and their creative journeys.
+                </p>
+            </div>
+
+            <div class="col-md-4">
+                <i class="bi bi-book display-4 text-warning"></i>
+                <h4 class="mt-3">Art Stories</h4>
+                <p>
+                    Discover the inspiration and meaning behind every artwork.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Featured Artworks -->
+<section class="bg-light py-5">
+
+    <div class="container">
+
+        <div class="text-center mb-5">
+            <h2>Featured Artworks</h2>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+
+                    <img src="Images/starrynight.jpeg"
+                        class="card-img-top"
+                        alt="Starry Night">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">Starry Night</h5>
+
+                        <p class="card-text">
+                            Vincent van Gogh
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow">
+
+                    <img src="Images/Mona lisa.jpg"
+                        class="card-img-top"
+                        alt="Mona Lisa">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">Mona Lisa</h5>
+
+                        <p class="card-text">
+                            Leonardo da Vinci
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4 mb-4">
+
+                <div class="card h-100 shadow">
+
+                    <img src="Images/the scream.jpg"
+                        class="card-img-top"
+                        alt="The Scream">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">The Scream</h5>
+
+                        <p class="card-text">
+                            Edvard Munch
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="text-center mt-4">
+            <a href="gallery.html" class="btn btn-dark btn-lg">
+                View Complete Gallery
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-4">
+
+    <div class="container">
+
+        <p class="mb-1">
+            © 2026 Art Gallery
+        </p>
+
+        <small>
+            Designed using HTML, CSS & Bootstrap
+        </small>
+
+    </div>
+
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
